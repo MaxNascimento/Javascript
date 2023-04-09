@@ -1,0 +1,86 @@
+@font-face {
+  font-family: Rudiment;
+  src: url('Rudiment.ttf');
+}
+
+body{
+    background:  rgb(1, 110, 212);
+    font: normal 15pt Arial;
+}
+
+header{
+    color: aliceblue;
+    text-align: center;
+}
+
+section{
+    background: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.445);
+    text-align: center;
+   
+}
+
+
+footer{
+    color: aliceblue;
+    text-align: center;
+    font-style: italic;
+}
+
+.but {
+    background-color:rgb(1, 110, 212); 
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .but:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  .but:active {
+    background-color: #399df0;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+
+  }
+
+#info{
+    border-radius: 2px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+  }
+
+#n1,#n2{
+    width: 70px;
+    border-radius: 2px;
+    font-size: 25px;
+    box-shadow: #000000 0px 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    border: 1px solid #0575d1;
+  }
+
+#res{
+  border: 5px solid rgb(68, 29, 6);
+  width: 90%;
+  background-color: rgb(4, 68, 29);
+  color: aliceblue;
+  font-family: Rudiment;
+  border-radius: 7px;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto; 
+  font-size: 40px;
+}
+
+

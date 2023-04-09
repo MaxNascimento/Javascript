@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NACIONALIDADE</title>
+</head>
+<body>
+    <h1>Nacionalidade</h1>
+    <div>
+       Que país você nasceu? <input type="text" id="res">
+        <input type="button" value="confimar" onclick="confirmar()">
+        <p id="br"></p>
+    </div>
+    <script>
+        function confirmar(){
+            var res = window.document.querySelector('input#res')
+            var br = window.document.querySelector('p#br')
+            var nac = String(res.value)
+
+            if (nac.toUpperCase() == 'BRASIL'){
+            
+                br.innerHTML = 'Você é brasileiro!'
+             
+            }else{
+
+                br.innerHTML = 'Você não é brasileiro!'
+            }
+
+
+        }
+
+    </script>
+
+</body>
+</html>

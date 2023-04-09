@@ -1,0 +1,99 @@
+body{
+    background:  rgb(1, 110, 212);
+    font: normal 20pt Arial;
+}
+h1{
+    text-shadow: #000000 5px 5px 10px;
+    text-align: center;
+}
+header{
+    color: aliceblue;
+    text-align: center;
+}
+
+section{
+    background: rgb(90, 160, 221);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.445);
+    color: aliceblue;
+    text-shadow: #000000 1px 1px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+
+footer{
+    color: aliceblue;
+    text-align: center;
+    font-style: italic;
+}
+
+.but {
+    background-color:rgb(1, 110, 212); 
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .but:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  .but:active {
+    background-color: #399df0;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+
+  }
+
+  .mas{
+    color: #0b08e0;
+  }
+
+
+  .fem{
+    color: #e23bbe;
+  }
+
+  #ano{
+    width: 70px;
+    text-align: center;
+    border-radius: 2px;
+    font-size: 25px;
+    box-shadow: #000000 0px 1px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+
+  }
+  #dia{
+    width: 50px;
+    text-align: center;
+    border-radius: 2px;
+    font-size: 25px;
+    box-shadow: #000000 0px 1px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+
+  }
+  #mes{
+    width: 50px;
+    text-align: center;
+    border-radius: 2px;
+    font-size: 25px;
+    box-shadow: #000000 0px 1px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+
+  }
+
